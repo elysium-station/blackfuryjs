@@ -2,9 +2,9 @@
 import Long from "long";
 import * as _m0 from "protobufjs/minimal";
 
-import { PageRequest, PageResponse } from "../../../cosmos/base/query/v1beta1/pagination";
 import { Params } from "../../../blackfury/vesting/v1/genesis";
 import { Airdrop } from "../../../blackfury/vesting/v1/vesting";
+import { PageRequest, PageResponse } from "../../../cosmos/base/query/v1beta1/pagination";
 
 export const protobufPackage = "blackfury.vesting.v1";
 

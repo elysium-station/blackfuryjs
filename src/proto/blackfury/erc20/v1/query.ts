@@ -2,9 +2,9 @@
 import Long from "long";
 import * as _m0 from "protobufjs/minimal";
 
-import { PageRequest, PageResponse } from "../../../cosmos/base/query/v1beta1/pagination";
 import { TokenPair } from "../../../blackfury/erc20/v1/erc20";
 import { Params } from "../../../blackfury/erc20/v1/genesis";
+import { PageRequest, PageResponse } from "../../../cosmos/base/query/v1beta1/pagination";
 
 export const protobufPackage = "blackfury.erc20.v1";
 

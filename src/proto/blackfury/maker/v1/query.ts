@@ -2,7 +2,6 @@
 import Long from "long";
 import * as _m0 from "protobufjs/minimal";
 
-import { Coin } from "../../../cosmos/base/v1beta1/coin";
 import { Params } from "../../../blackfury/maker/v1/genesis";
 import {
   AccountCollateral,
@@ -13,6 +12,7 @@ import {
   TotalBacking,
   TotalCollateral,
 } from "../../../blackfury/maker/v1/maker";
+import { Coin } from "../../../cosmos/base/v1beta1/coin";
 
 export const protobufPackage = "blackfury.maker.v1";
 

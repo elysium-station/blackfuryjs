@@ -1286,7 +1286,9 @@ export const TotalCollateral = {
   fromPartial<I extends Exact<DeepPartial<TotalCollateral>, I>>(object: I): TotalCollateral {
     const message = createBaseTotalCollateral();
     message.blackDebt =
-      object.blackDebt !== undefined && object.blackDebt !== null ? Coin.fromPartial(object.blackDebt) : undefined;
+      object.blackDebt !== undefined && object.blackDebt !== null
+        ? Coin.fromPartial(object.blackDebt)
+        : undefined;
     message.furyCollateralized =
       object.furyCollateralized !== undefined && object.furyCollateralized !== null
         ? Coin.fromPartial(object.furyCollateralized)
@@ -1367,7 +1369,9 @@ export const PoolCollateral = {
         ? Coin.fromPartial(object.collateral)
         : undefined;
     message.blackDebt =
-      object.blackDebt !== undefined && object.blackDebt !== null ? Coin.fromPartial(object.blackDebt) : undefined;
+      object.blackDebt !== undefined && object.blackDebt !== null
+        ? Coin.fromPartial(object.blackDebt)
+        : undefined;
     message.furyCollateralized =
       object.furyCollateralized !== undefined && object.furyCollateralized !== null
         ? Coin.fromPartial(object.furyCollateralized)
@@ -1484,7 +1488,9 @@ export const AccountCollateral = {
         ? Coin.fromPartial(object.collateral)
         : undefined;
     message.blackDebt =
-      object.blackDebt !== undefined && object.blackDebt !== null ? Coin.fromPartial(object.blackDebt) : undefined;
+      object.blackDebt !== undefined && object.blackDebt !== null
+        ? Coin.fromPartial(object.blackDebt)
+        : undefined;
     message.furyCollateralized =
       object.furyCollateralized !== undefined && object.furyCollateralized !== null
         ? Coin.fromPartial(object.furyCollateralized)

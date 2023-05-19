@@ -2,12 +2,12 @@
 import Long from "long";
 import * as _m0 from "protobufjs/minimal";
 
-import { DecCoin } from "../../../cosmos/base/v1beta1/coin";
 import {
   AggregateExchangeRatePrevote,
   AggregateExchangeRateVote,
   Params,
 } from "../../../blackfury/oracle/v1/oracle";
+import { DecCoin } from "../../../cosmos/base/v1beta1/coin";
 
 export const protobufPackage = "blackfury.oracle.v1";
 

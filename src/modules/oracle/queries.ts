@@ -1,13 +1,13 @@
 import { QueryClient, createProtobufRpcClient } from "@cosmjs/stargate";
 import { assert } from "@cosmjs/utils";
 
-import type { DecCoin } from "../../proto/cosmos/base/v1beta1/coin";
 import type {
   AggregateExchangeRatePrevote,
   AggregateExchangeRateVote,
   Params,
 } from "../../proto/blackfury/oracle/v1/oracle";
 import { QueryClientImpl } from "../../proto/blackfury/oracle/v1/query";
+import type { DecCoin } from "../../proto/cosmos/base/v1beta1/coin";
 
 export interface OracleExtension {
   readonly oracle: {
